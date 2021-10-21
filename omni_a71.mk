@@ -15,8 +15,8 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := phoenix
-DEVICE_PATH := device/xiaomi/phoenix
+PRODUCT_RELEASE_NAME := a71
+DEVICE_PATH := device/samsung/a71
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -38,11 +38,11 @@ PRODUCT_PACKAGES += \
     qcom_decrypt_fbe
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := phoenix
-PRODUCT_NAME := omni_phoenix
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Poco X2
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := a71
+PRODUCT_NAME := omni_a71
+PRODUCT_BRAND := Samsung
+PRODUCT_MODEL := Galaxy
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
